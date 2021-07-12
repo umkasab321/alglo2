@@ -55,8 +55,8 @@ int main(){
     std::cout << "helloooo" << std::endl;
 
     int N, M;
-    UnionFind uf(N);
     cin >> N >> M;
+    UnionFind uf(N);
     for(int i = 0; i < M; ++i){
         int  l, r, d;
         cin >> l >> r >> d;
